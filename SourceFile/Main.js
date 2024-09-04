@@ -1,1 +1,3 @@
-console.log("welcome to the class!")
+const fs = require('fs');
+
+fs.readFile()
