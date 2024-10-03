@@ -1,4 +1,5 @@
 const fs = require('fs');
 
-fs.readFile()
-fs.writeFileSync('test.txt',"datat")
+fs.writeFileSync('notes.txt',"Updated")
+
+console.log("test")
