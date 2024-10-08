@@ -1,5 +1,9 @@
-const fs = require('fs');
+const express = require('express')
+const task = require('./routes/tasks')
+const app = express()
 
-fs.writeFileSync('notes.txt',"Updated")
+app.use('/api/tasks',task)
 
-console.log("test")
+app.listen(3000,()=>{
+    console.log("Node Running")
+})

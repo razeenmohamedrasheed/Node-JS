@@ -1,0 +1,17 @@
+{
+  "name": "sourcefile",
+  "version": "1.0.0",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon Server.js"
+  },
+  "author": "Razeen Rasheed",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7",
+    "validator": "^13.12.0"
+  }
+}
